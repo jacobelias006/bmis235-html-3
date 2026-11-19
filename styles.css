@@ -10,8 +10,8 @@
    ===================================================================== */
 
 body {
-    font-family: Georgia, "Cambria", serif;
-    background-color: #f4efe6;
+    font-family: Cambria, Georgia, serif;
+    background-color: #FFE5B4;
     color: #2b2b2b;
     margin: 0;
     padding: 0 20px 40px 20px;
@@ -19,7 +19,7 @@ body {
 
 /* the menu at the top of every page */
 nav {
-    background-color: #FFE5B4;
+    background-color: #2b2b2b;
     padding: 14px;
     text-align: center;
 }
@@ -39,7 +39,7 @@ nav a {
 }
 
 h1 {
-    color: #2b5d8c;
+    color: #2b2b2b;
     text-align: center;
     font-size: 40px;
 }
@@ -56,4 +56,19 @@ footer {
     font-size: 14px;
     color: #777777;
     margin-top: 40px;
+}
+/* Style 1: rounded corners on the menu */
+nav {
+    border-radius: 12px;
+}
+
+/* Style 2: menu images grow slightly when you hover over them */
+nav img:hover {
+    transform: scale(1.1);
+}
+
+/* Style 3: a line under the main heading */
+h1 {
+    border-bottom: 3px solid #2b2b2b;
+    padding-bottom: 10px;
 }
