@@ -10,7 +10,7 @@
    ===================================================================== */
 
 body {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Cambria", serif;
     background-color: #f4efe6;
     color: #2b2b2b;
     margin: 0;
@@ -19,7 +19,7 @@ body {
 
 /* the menu at the top of every page */
 nav {
-    background-color: #2b5d8c;
+    background-color: #FFE5B4;
     padding: 14px;
     text-align: center;
 }
